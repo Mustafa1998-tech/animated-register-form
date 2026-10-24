@@ -33,6 +33,7 @@ body {
 .scene {
   position: relative;
   width: min(400px, 100%);
+  visibility: hidden; /* shown by script.js once the intro positions are set */
 }
 
 /* ===== Card ===== */

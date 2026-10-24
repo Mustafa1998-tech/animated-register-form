@@ -91,6 +91,7 @@
 
     gsap.set(card, { x: cardStart, rotation: 0 });
     gsap.set(character, { x: charStart });
+    gsap.set("#scene", { visibility: "visible" });
 
     if (reduce) {
       gsap.set(card, { x: 0 });
